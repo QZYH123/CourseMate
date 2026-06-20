@@ -1,0 +1,5 @@
+course,assignment,due_at,kind,estimated_minutes,status,notes
+AI Agents,Experiment 2 BYOA,2026-06-20 23:59,project,240,open,构建一个单一用途 Agent，至少包含两个工具，并提交简短报告。
+AI Agents,BYOA report screenshots,2026-06-20 22:00,evidence,45,open,截取 3 到 4 张能展示真实执行和工具调用的截图。
+AI Agents,BYOA reflection paragraph,2026-06-20 22:30,writing,30,open,写一段简洁反思，说明 AI 开发障碍和工程解决方式。
+AI Agents,Repository cleanup,2026-06-20 23:00,submission,30,open,检查 README、prompt、依赖和可运行命令是否齐全。

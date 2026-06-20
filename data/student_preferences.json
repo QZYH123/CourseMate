@@ -1,0 +1,11 @@
+{
+  "default_course": "AI Agents",
+  "daily_available_minutes": 120,
+  "preferred_work_style": "short focused blocks with visible deliverables",
+  "priority_rules": [
+    "prefer tasks due within 24 hours",
+    "finish evidence and report before polishing",
+    "avoid adding features that do not support the rubric"
+  ]
+}
+
