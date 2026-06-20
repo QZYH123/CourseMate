@@ -173,33 +173,6 @@ python -m unittest discover -s tests
 - DeepSeek/OpenAI-compatible 配置解析。
 - MCP `tools/list`、`tools/call` 和错误返回。
 
-## 截图建议
-
-报告要求 3 到 4 张真实运行截图。建议截以下 4 张：
-
-1. `python -m student_course_agent "Experiment 2 要求是什么？"`
-   - 截到实验目标、技术要求、交付物、评分标准、`来源:`、`工具调用:`。
-2. `python -m student_course_agent "这周有什么要交？"`
-   - 截到 deadline 列表、`data/deadlines.csv`、`query_deadlines`。
-3. `python -m student_course_agent "我今晚有 120 分钟，应该先做什么？"`
-   - 截到按分钟拆分的学习计划、来源和工具调用。
-4. `python -m student_course_agent "检查我的 BYOA 项目是否可以提交。"`
-   - 截到 `提交准备情况:` 和交付物检查结果。
-
-截图放到：
-
-```text
-screenshots/
-```
-
-或：
-
-```text
-report/screenshots/
-```
-
-截图数量为 3 到 4 张后，再运行交付物检查，`Screenshots` 问题应消失。
-
 ## 项目中的 Prompt
 
 本节只记录项目源码和示例文件中的 prompt，不包含开发对话内容。
@@ -287,6 +260,9 @@ tests/
 ## 重要说明
 
 - 默认截图建议使用本地确定性模式，输出更稳定。
+
 - DeepSeek 模式用于证明兼容 OpenAI-compatible API；它不是必须截图的主路径。
+
 - 如果 DeepSeek 总结丢失信息，代码会回退到本地确定性答案。
-- 项目不会自动生成报告截图，截图必须来自真实运行结果。
+
+  
